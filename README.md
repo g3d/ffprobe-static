@@ -1,25 +1,25 @@
-# ffmpeg-static
+# ffprobe-static
 
-ffmpeg static binaries for Mac OSX and Linux and Windows
+ffprobe static binaries for Mac OSX and Linux and Windows
 
-[![build status](https://secure.travis-ci.org/eugeneware/ffmpeg-static.png)](http://travis-ci.org/eugeneware/ffmpeg-static)
+[![build status](https://secure.travis-ci.org/eugeneware/ffprobe-static.png)](http://travis-ci.org/eugeneware/ffprobe-static)
 
 ## Installation
 
 This module is installed via npm:
 
 ``` bash
-$ npm install ffmpeg-static
+$ npm install ffprobe-static
 ```
 
 ## Example Usage
 
-Returns the path of a statically linked ffmpeg binary on the local filesystem.
+Returns the path of a statically linked ffprobe binary on the local filesystem.
 
 ``` js
-var ffmpeg = require('ffmpeg-static');
-console.log(ffmpeg.path);
-// /Users/eugeneware/Dropbox/work/ffmpeg-static/bin/darwin/x64/ffmpeg
+var ffprobe = require('ffprobe-static');
+console.log(ffprobe.path);
+// ~/ffprobe-static/bin/darwin/x64/ffprobe
 ```
 
 Currently supports Mac OS X (64-bit), Linux (32 and 64-bit) and Windows
@@ -28,14 +28,14 @@ Currently supports Mac OS X (64-bit), Linux (32 and 64-bit) and Windows
 Currently version `2.5.3` is installed for Mac and Linux, and `2.5.2` for
 Windows.
 
-I pulled the versions from the ffmpeg static build pages linked from the
-official ffmpeg site. Namely:
+I pulled the versions from the ffprobe static build pages linked from the
+official ffprobe site. Namely:
 
-* [64 bit Mac OSX](https://evermeet.cx/ffmpeg/)
-* [64 bit Linux](http://johnvansickle.com/ffmpeg/)
-* [32 bit Linux](http://johnvansickle.com/ffmpeg/)
-* [64 bit Windows](http://ffmpeg.zeranoe.com/builds/win64/static/)
-* [32 bit Windows](http://ffmpeg.zeranoe.com/builds/win32/static/)
+* [64 bit Mac OSX](https://evermeet.cx/ffprobe/)
+* [64 bit Linux](http://johnvansickle.com/ffprobe/)
+* [32 bit Linux](http://johnvansickle.com/ffprobe/)
+* [64 bit Windows](http://ffprobe.zeranoe.com/builds/win64/static/)
+* [32 bit Windows](http://ffprobe.zeranoe.com/builds/win32/static/)
 
 NB: Open to pull requests to update this module with the latest versions.
 
